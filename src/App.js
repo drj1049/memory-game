@@ -2,14 +2,23 @@
   import { useState, useEffect } from 'react';
   import SingleCard from './components/SingleCard';
 
-  const cardImages = [
+  /*const cardImages = [
     { "src": "/img/apple.png", matched: false},
     { "src": "/img/pear.png", matched: false},
     { "src": "/img/banana.png", matched: false},
     { "src": "/img/grapes.png", matched: false},
     { "src": "/img/watermelon.png", matched: false},
     { "src": "/img/orange.png", matched: false}
-  ];
+  ];*/
+
+  const cardImages = [
+  { src: process.env.PUBLIC_URL + "/img/apple.png", matched: false},
+  { src: process.env.PUBLIC_URL + "/img/pear.png", matched: false},
+  { src: process.env.PUBLIC_URL + "/img/banana.png", matched: false},
+  { src: process.env.PUBLIC_URL + "/img/grapes.png", matched: false},
+  { src: process.env.PUBLIC_URL + "/img/watermelon.png", matched: false},
+  { src: process.env.PUBLIC_URL + "/img/orange.png", matched: false}
+];
 
   function App() {
     const [cards, setCards] = useState([]);
