@@ -18,7 +18,6 @@ function App() {
   const [choiceOne, setChoiceOne] = useState(null);
   const [choiceTwo, setChoiceTwo] = useState(null);
   const [disabled, setDisabled] = useState(false);
-
   const [playerName, setPlayerName] = useState('');
   const [isGameStarted, setIsGameStarted] = useState(false);
 
