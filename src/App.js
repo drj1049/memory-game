@@ -84,7 +84,7 @@ function App() {
     }
   },[choiceOne, choiceTwo]);
 
-  // reset choices, increment turns & un-disables cards
+  // resets choices, increment turns & un-disables cards
   const resetTurn = () => {
     setChoiceOne(null);
     setChoiceTwo(null);
