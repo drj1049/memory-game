@@ -38,7 +38,7 @@ function App() {
 
   // start game after name validation
   const startGame = (e) => {
-    e.preventDefault();
+    e.preventDefault(); //prevents page from refreshing 
 
     if (!playerName.trim()) {
       alert("⚠️ Please enter your name");
