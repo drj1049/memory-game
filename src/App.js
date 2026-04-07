@@ -135,13 +135,13 @@ function App() {
             key={card.id} 
             card={card} 
             handleChoice={handleChoice}
-            flipped={card === choiceOne || card === choiceTwo || card.matched}
-            disabled={disabled}
+            flipped={card === choiceOne || card === choiceTwo || card.matched} //bool
+            disabled={disabled} //bool
           />
         ))}
       </div>
 
-      {gameOver && <h2>🎉 Game Over! Congratulations! 🎉</h2>}
+      {gameOver && <h2>🎉 Game Over! Congratulations! 🎉</h2>}   
       <p>Turns: {turns}</p>
     </div>
   );
