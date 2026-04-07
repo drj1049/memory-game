@@ -1,7 +1,7 @@
 {
   "build": {
     "env": {
-      "NODE_OPTIONS": "--openssl-legacy-provider"
+      "NODE_VERSION": "18"
     }
   }
 }
