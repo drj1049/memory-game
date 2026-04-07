@@ -141,6 +141,7 @@ function App() {
         ))}
       </div>
 
+      {/* shows message only if game is over, else shows nothing */}
       {gameOver && <h2>🎉 Game Over! Congratulations! 🎉</h2>}   
       <p>Turns: {turns}</p>
     </div>
