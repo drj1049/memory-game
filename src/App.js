@@ -113,7 +113,8 @@ function App() {
     );
   }
 
-  // game screen
+  // game screen if game has started (else condition)
+  //either shows start screen or game screen, never both at the same time
   return (
     <div className="App">
       <h1>Fruit Flip Frenzy</h1>
