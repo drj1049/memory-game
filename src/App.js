@@ -43,7 +43,7 @@ function App() {
     if (playerName.trim() === "") {
     alert("⚠️ Please enter your name to start the game! ⚠️");
     return;
-}
+    }
 
     setIsGameStarted(true);
     shuffleCards();
