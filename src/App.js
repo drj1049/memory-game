@@ -22,7 +22,7 @@ function App() {
   const [isGameStarted, setIsGameStarted] = useState(false);
 
   // check if all cards are matched
-  const gameOver = cards.length > 0 && cards.every(card => card.matched);
+  const gameOver = cards.length > 0 && cards.every(card => card.matched); //bool
 
   // shuffle and reset game
   const shuffleCards = () => {
