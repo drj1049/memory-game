@@ -63,7 +63,7 @@ function App() {
 
       if(choiceOne.src === choiceTwo.src)
       {
-        setCards(prevCards => {
+        setCards(prevCards => {//prevCards is the current state of cards, which is updated now
           return prevCards.map(card => {
             if(card.src === choiceOne.src)
             {
