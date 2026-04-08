@@ -40,10 +40,10 @@ function App() {
   const startGame = (e) => {
     e.preventDefault(); //prevents page from refreshing 
 
-    if (!playerName.trim()) {
-      alert("⚠️ Please enter your name");
-      return;
-    }
+    if (playerName.trim() === "") {
+    alert("⚠️ Please enter your name to start the game! ⚠️");
+    return;
+}
 
     setIsGameStarted(true);
     shuffleCards();
